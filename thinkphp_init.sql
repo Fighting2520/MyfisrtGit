@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `think_admin` (
   `login_ip` char(30) NOT NULL COMMENT '最后登录ip',
   `add_time` int(11) NOT NULL COMMENT '添加时间',
   PRIMARY KEY (`id`),
-  UNIQUE KEY `admin_name` (`adminname`)
+  UNIQUE KEY `adminname` (`adminname`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COMMENT='管理员表' AUTO_INCREMENT=21 ;
 
 -- --------------------------------------------------------
